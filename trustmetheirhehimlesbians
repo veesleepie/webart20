@@ -1,84 +1,69 @@
-
+<!DOCTYPE html>
 <style>
-body{
-
-  background-image:url('https://www.maxpixel.net/static/photo/1x/Sky-Space-Universe-Moon-The-Sun-Astronomy-Stars-4681147.png'), linear-gradient(90deg, #BD1842
-, #184FBD);
-  background-size: 200px,100%;
+body {
+  background-image: url("https://www.maxpixel.net/static/photo/1x/Sky-Space-Universe-Moon-The-Sun-Astronomy-Stars-4681147.png"),
+    linear-gradient(90deg, #bd1842, #184fbd);
+  background-size: 200px, 100%;
 }
 
-
- h1{
-   width: 900px;
-   margin:auto;
-   padding: 20px;
-   font-family: VT323;
-    position: absolute;
-    top: 0px;
-    font-size: 50px;
-   color: #fff;
-  }
-
-.lol{
+h1 {
+  width: 900px;
   margin: auto;
+  padding: 20px;
+  font-family: VT323;
+  margin-top: 0px;
+  font-size: 50px;
+  color: #fff;
+}
+
+.lol {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
   width: 300px;
-  height:250px;
-  border: 10px solid #ffe770;
-  position: absolute;
-  right: 35%;
-  top: 200px;
-  font-family:Fredoka One;
-  line-height: 2.5;
-  background-color:rgba(255, 240, 163, 1);
-  color:#7b00ff;
-  
-}
-
-.AXEL{
-  width: 300px;
-  height:270px;
-  position: fixed;
-  left:0px;
-  top:200px;
-  background-color:rgba(255, 95, 46, 0.7);
-  color:#85e9ff;
-  border-radius:180px;
-  z-index:2;
-}
-
-.AXELh2{
-  font-family:Fredoka One;
-}
-
-.SAIX{
-  width: 300px;
-  height:270px;
-  position: fixed;
-  right:0px;
-  top: 200px;
-  background-color:rgba(46, 116, 255, 0.7);
-  color:#ff8585;
-  border-radius:180px;
-  z-index:2;
-}
-
-.SAIXh2{
-  font-family:Fredoka One;
-}
-
-
-.axel1{
-  margin: auto;
-  width: 60%;
+  height: 250px;
   padding: 10px;
-  position: relative;
-  top: 500px;
-  
-  
-  
+  border: 10px solid #ffe770;
+  font-family: Fredoka One;
+  line-height: 2.5;
+  background-color: rgba(255, 240, 163, 1);
+  color: #7b00ff;
 }
 
-.firebox{
+.AXEL {
+  width: 300px;
+  height: 270px;
+  position: fixed;
+  left: 40px;
+  top: 200px;
+  background-color: rgba(255, 95, 46, 0.7);
+  color: #85e9ff;
+  border-radius: 180px;
+  z-index: 2;
+}
+
+.AXELh2 {
+  font-family: Fredoka One;
+}
+
+.SAIX {
+  width: 300px;
+  height: 270px;
+  position: fixed;
+  right: 40px;
+  top: 200px;
+  background-color: rgba(46, 116, 255, 0.7);
+  color: #ff8585;
+  border-radius: 180px;
+  z-index: 2;
+}
+
+.SAIXh2 {
+  font-family: Fredoka One;
+}
+
+
+.firebox {
   margin: auto;
   width: 98%;
   height: 150px;
@@ -87,22 +72,20 @@ body{
   position: absolute;
   top: 500px;
   left: 0px;
-  z-index:-1;
-  
-  background-image: url('https://media.giphy.com/media/x12FrPeyNSmLC/200.gif');
-  
+  z-index: -1;
+
+  background-image: url("https://media.giphy.com/media/x12FrPeyNSmLC/200.gif");
 }
 
-.saix2{
-   margin: auto;
+.saix2 {
+  margin: auto;
   width: 60%;
   padding: 10px;
   position: relative;
   top: 500px;
-  
 }
 
-.moonbox{
+.moonbox {
   margin: auto;
   width: 98%;
   height: 130px;
@@ -110,97 +93,78 @@ body{
   border: 0px solid;
   position: absolute;
   top: 660px;
-  left:0;
-  z-index:-1;
-  
-  background-image: url('https://media2.giphy.com/media/gffPUSEsc2R476R64M/source.gif');
+  left: 0;
+  z-index: -1;
+
+  background-image: url("https://media2.giphy.com/media/gffPUSEsc2R476R64M/source.gif");
   background-size: 150px;
-  
 }
 
-.leasisa{
-  
+.leasisa {
   margin: auto;
   width: 100%;
   height: 300px;
-  overflow:hidden;
+  overflow: hidden;
   padding: 0px;
   border: 0px solid;
   position: absolute;
   top: 900px;
   left: 0px;
-  z-index:3;
-  
+  z-index: 3;
 }
 
-div.divorce img{
-  opacity:1;
-}
-
-.divorce{
-margin: auto;
+.divorce {
   width: 100%;
   height: 200px;
   padding: 10px;
   border: 0px solid;
-  position: relative;
-  top: 1000px;
+  position: absolute;
+  top: 1250px;
   left: -20px;
-  z-index:-1;
+  z-index: -1;
   background-color: rgba(183, 130, 211, 0.5);
-  background-image: url('https://64.media.tumblr.com/44a80d50b4c193bdfe91e8dfa4a2030b/tumblr_oow3ym49Dm1ufppf2o3_540.gif');
+  background-image: url("https://64.media.tumblr.com/44a80d50b4c193bdfe91e8dfa4a2030b/tumblr_oow3ym49Dm1ufppf2o3_540.gif");
   background-size: 300px;
 }
 
-.screamingoverlay{
-  margin: auto;
+.screamingoverlay {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 800px;
   width: 800px;
   height: 420px;
   padding: 10px;
   border: 5px solid;
-  position: absolute;
   top: 1500px;
   left: 10%;
   z-index: 1;
-  
-  background-image: url('https://media4.giphy.com/media/KHJWZqhl007cDLTJx0/giphy.gif');
-    background-size: 50px;
-    opacity:0.2;
+
+  background-image: url("https://media4.giphy.com/media/KHJWZqhl007cDLTJx0/giphy.gif");
+  background-size: 50px;
+  opacity: 0.2;
 }
-.screaming{
-  margin: auto;
+.screaming {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -450px;
   width: 800px;
   height: 420px;
   padding: 10px;
   border: 5px solid;
-  position: absolute;
-  top: 1500px;
-  left: 10%;
   z-index: -1;
-  
-  background-image: url('https://64.media.tumblr.com/0c5266bf3ae8914ac3f8f250bf58db84/tumblr_pmacrz8U521vshemho3_r1_540.gif');
-    background-size: 900px
+
+  background-image: url("https://64.media.tumblr.com/0c5266bf3ae8914ac3f8f250bf58db84/tumblr_pmacrz8U521vshemho3_r1_540.gif");
+  background-size: 900px;
 }
-.DA{
-  position: absolute;
-  left: 50px;
-  bottom:200px;
-  
-  
+.DA {
+  position: relative;
+  bottom: -300px;
 }
 
-.cloud{
-  position: absolute;
-  right: 400px;
-  top:0px;
+.cloud {
+  position: relative;
+  left: 50%;
 }
-
-.stitch{
-  position: absolute;
-  right: 0px;
-  bottom:0px;
-}
-
 </style>
 
 <body>
@@ -306,8 +270,7 @@ margin: auto;
 
     <img class=cloud src="https://thumbs.gfycat.com/GlossyImpishFrilledlizard-small.gif" width="100">
 
-    <img class=stitch src="https://data.whicdn.com/images/133202670/original.gif" width="100">
-
   </div>
 
 </body>
+</html>
